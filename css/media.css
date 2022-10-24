@@ -1,0 +1,35 @@
+/* Smart hpones And Tablest */
+@media (max-width:767px)
+{
+   .navbar-inverse .navbar-nav > li > a
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .subscribe .form-control
+    {
+        margin: 20px auto ;
+        width: 400px;
+    }
+    .navbar-fixed-top .navbar-collapse, 
+    .navbar-fixed-bottom .navbar-collapse
+    {
+        max-height: none;
+    }
+    
+}
+/* Small Screen  */
+@media (min-eidth:768px)and(max-width:991px)
+{
+    
+}
+/* medium Screen  */
+@media (min-eidth:792px)and(max-width:1199px)
+{
+    
+}
+/* large Screen  */
+@media (min-eidth:1200px)
+{
+    
+}

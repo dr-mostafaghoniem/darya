@@ -1,0 +1,577 @@
+
+body{
+	padding-top: 70px;
+}
+h1,h2,h3,h4,h5 , .lead
+{
+    font-family: 'Amiri', serif;
+}
+/******************Start Overriding Bootestrab******************/
+
+ /*  Start section Tool Box  */
+.option-box
+{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 9999;
+}
+.option-box .color-option
+{
+    float: left;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    display: none;
+    margin-top: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.option-box .color-option ul li
+{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 3px;
+    cursor:pointer;
+}
+.option-box .gear-check
+{
+    padding: 5px; 
+    color: #FFF;
+    cursor: pointer;
+}
+
+/*   End section Tool Box  */
+/* Main Navbar*/
+.navbar
+{
+	min-height: 70px;
+}
+/* Active link*/
+
+/* Navbare link*/
+.navbar-inverse .navbar-nav > li > a
+{
+	color:#BBB;
+	padding-top: 25px;
+	padding-bottom:  25px;
+	font-size: 16px;
+}
+/* Brand Name */
+.navbar-inverse .navbar-brand
+{
+	color: #BBB;
+	font-size: 40px;
+	line-height: 40px;
+}
+
+/*  .dropdown-menu */
+.dropdown-menu 
+{
+	background-color: #333;
+	width: 200px;
+    text-align: right;
+    font-size: 18px;
+}
+.navbar-right .dropdown-menu
+{
+	left: auto;
+	right: 0px;	
+}
+	
+/*Devider */
+
+/* dropdown */
+.dropdown-menu > li > a
+{
+	color: #FFF;
+	padding:  6px 20px;
+	-webkit-transition:padding 0.5s ease;
+	-moz-transition:padding 0.5s ease;
+	-o-transition:padding 0.5s ease;
+	transition:padding 0.5s ease;
+}
+/* .dropdown-menu hover,focus */
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+	background-color:#E41B17;
+	
+}
+/*NavBar Tagel */
+.navbar-toggle
+{
+	margin-top: 18px;
+}
+/* carousal */
+.carousel-caption
+{
+    bottom: 50px;
+    background: rgba(3,3,3,0.4);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20;
+}
+/* indecator */
+.carousel-indicators li
+{
+    height: 18px;
+    width: 18px;
+    border: 1px solid #EEE;
+}
+.carousel-indicators .active
+{
+    height: 22px;
+    width: 22px;
+}
+
+/* Start section About */ 
+.about
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about h1
+{
+    font-weight: bold;
+}
+.about .lead
+{
+    color:#444;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+/* End section About */ 
+
+/* Start section Features */
+.features
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #EEE;
+}
+.features .feat
+{
+    margin-bottom: 30px;
+}
+.features .feat p
+{
+    line-height: 2em;
+}
+.features .feat span.glyphicon
+{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+/* End section Features */
+
+/* Starat section testimonails  */
+.testimonails
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+testimonails h1
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+.testimonails .lead
+{
+    line-height: 2me;
+    margin-bottom: 10px;
+}
+.testimonails span
+{
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+.testimonails .carousel-inner
+{
+    min-height: 95 px;
+    width: 100%;
+}
+.testimonails .carousel-indicators
+{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.testimonails .carousel-indicators li
+{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.5 ;
+    border:  3px solid #FFF ;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    -webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+.testimonails .carousel-indicators li.active
+{
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    background: none ;    
+}
+.testimonails .carousel-indicators li img
+{
+    max-width: 100%;
+}
+/* End section testimonails  */
+
+/* Start section price Table  */
+.price_table
+{
+    background: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.price_table h1
+{
+    margin-bottom: 30px;
+}
+.price_table .price_box
+{
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+    border-radius: 8% ;
+
+}
+.price_table .price_box h2
+{
+    margin: 5px 0 15px;
+}
+.price_table .price_box:hover p
+{
+      -webkit-transform: scale(1.1,1.1) rotate(360deg); 
+      -moz-transform: scale(1.1,1.1)rotate(360deg);  
+      -o-transform: scale(1.1,1.1)rotate(360deg);  
+      transform: scale(1.1,1.1)rotate(360deg);   
+}
+.price_table .price_box p
+{
+    font-size: 53px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background: #f3f3f3;
+    border-radius: 50% ;
+    line-height: 100px;
+    border: 2px solid #FFF;
+    -webkit- transition-duration:0.7s;
+    -moz- transition-duration:0.7s;
+    -o- transition-duration:0.7s;
+     transition-duration:0.7s;
+    
+    
+}
+.price_table .price_box ul
+{
+    line-height: 250%;
+    font-size: 18px;
+}
+.price_table .price_box a
+{
+    margin-bottom: 5px;
+}
+/* End section price Table  */
+
+/* Start section Our Team */
+.our_team
+{
+    background:url('../images/team back.jpg') no-repeat center fixed;
+    width:100%;
+    min-height: 600px;
+    -wibkik-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.our_team .team
+{
+    background: rgba(3,3,3,0.3);
+    color: #FFF;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+} 
+.our_team .team h1
+{
+    margin-bottom: 60px;
+}
+.our_team .person
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* End section Our Team */
+
+/*  Start section Subscribe  */
+.subscribe
+{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #EEE;
+    
+}
+.subscribe h1
+{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.subscribe p
+{
+    margin-bottom: 30px;
+}
+.subscribe .form-control
+{
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+}
+.subscribe .btn
+{
+    border-radius: 0;
+}
+
+/*  end section Subscribe  */
+
+/* <!-- Start section Stats --> */
+.statistics
+{
+    background: url('../images/lab.jpg') no-repeat center fixed;
+    -wibkik-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 300px;
+}
+.statistics .data
+{
+    background-color:rgba(2,2,2,0.5);
+    color: #B6B5B5;
+    min-height: 300px;
+     padding-top: 40px;
+    padding-bottom: 70px;
+}
+.statistics h1
+{
+    margin-bottom: 60;
+    color: #FFF;    
+}
+.statistics .stats
+{
+    -webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+    margin-bottom: 30px;
+
+
+}
+.statistics .stats:hover
+{
+    color: #FFF;
+}
+.statistics p
+{
+    font-size: 60px;
+    font-weight: 600px;
+    margin-bottom: 0;
+}
+.statistics span
+{
+    font-size: 18px;
+}
+/* <!-- end section Stats--> */
+
+/* Start section Our skills --*/
+.our-skills
+{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.our-skills h2
+{
+    margin-bottom: 60px;
+}
+.our-skills h3
+{
+    font-weight: bold;
+    margin-top: 0;
+}
+.our-skills .skills-info .btn 
+{
+    font-size: 20px;
+    border-radius:0;
+}
+.our-skills .progress
+{
+    height: 30px;
+}
+.our-skills .progress-bar
+{
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+/* End section Our skills --*/
+
+/*  Start sectoin contact Us  */
+.contact-us
+{
+    background: url('../images/contactus.jpg') no-repeat center fixed;    
+    -wibkik-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 300px;
+}
+.contact-us .fildes
+{
+    background-color:rgba(9,9,9,0.5);
+    color: #DDD;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.contact-us p
+{
+    margin-bottom: 40px;
+}
+.contact-us textarea 
+{
+    width: 100%;
+    height: 105px;
+    color: #333;
+}
+/** .contact-us input[type="text"],
+.contact-us textarea 
+{
+    background: rgba(82,78,78,05);
+    color: #FFF;
+    border: none;
+} */
+/*  End sectoin contact Us  */
+
+ /* Start section Our clients  */
+.our-clients
+{
+    background: #EEE;
+    padding-top: 40px;
+    
+}
+.our-clients img
+{
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.our-clients img:hover
+{
+    opacity: 1;
+    -webkit-transition:all 0.7s ease-in-out;
+	-moz-transition:all 0.7s ease-in-out;
+	-o-transition:all 0.7s ease-in-out;
+	transition:all 0.7s ease-in-out;
+  
+}
+/*  End section Our clients  */
+/*  Start Unltimate footer section */ 
+
+.footer
+{
+    background: #111;
+    color: #AAA;
+    padding-top: 20px;
+}
+.footer a
+{
+    color: #AAA;
+}
+.footer a:hover
+{
+    color: #222;
+}
+.footer h3
+{
+    letter-spacing: 1px;
+    margin: 30px 0 20px
+}
+.footer .three-columns
+{
+    overflow:hidden;
+}
+.footer .three-columns li
+{
+    width:33.3333%;
+    float:left;
+    padding:5px 0;
+    font-size: 20px;
+}
+.footer .socail
+{
+    overflow:hidden;
+    
+}
+.footer .socail li
+{
+    float:left;
+    margin-right: 12px;
+    opacity: 0.4;
+     -webkit-transition:all 0.7s ease-in-out;
+	-moz-transition:all 0.7s ease-in-out;
+	-o-transition:all 0.7s ease-in-out;
+	transition:all 0.7s ease-in-out;
+    text-align: center;
+}
+.footer .socail li:hover
+{
+   opacity: 1; 
+}
+.footer .img-thumbnail
+{
+    background: rgba(0,0,0,0.2);
+    border: 1px solid #444;
+}
+.footer .copyright
+{
+    background: #333;
+    color: #EEE;
+    margin-top: 30px;
+    font-size: 20px;    
+}
+
+/*End Unltimate footer section */
+
+
+
+
+
+
+
+

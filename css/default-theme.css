@@ -1,0 +1,37 @@
+/**** Strat defolt them ****/
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.option-box .gear-check,
+.dropdown-menu .divider,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active
+{
+	background-color:#E41B17;
+}
+.navbar-inverse .navbar-brand span,
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.testimonails span,
+.footer h3,
+.footer .copyright span,
+.features .feat span.glyphicon
+{
+	color: #E41B17;
+}	
+.testimonails .carousel-indicators li.active,
+.price_table .price_box:hover p,
+.option-box .color-option
+{
+    border:  2px solid  #E41B17;    
+}
+.dropdown-menu 
+{
+	border-top: 3px solid #E41B17;
+}
+
+
+
+/**** End defolt them  ****/
